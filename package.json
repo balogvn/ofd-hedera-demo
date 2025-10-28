@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "name": "ofd-hedera-demo",
+  "version": "1.0.0",
+  "description": "Oracle Free Dollar Hedera demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node scripts/create_tokens.js",
+    "mint": "node scripts/mint_tokens.js",
+    "transfer": "node scripts/transfer_tokens.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.75.0",
+    "dotenv": "^17.2.3"
+  }
+}
